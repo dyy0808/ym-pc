@@ -1,0 +1,182 @@
+/* banner 开始 */
+.ymy_banner_bg{
+    overflow: hidden;
+    background: url("../image/ym_y_banner.jpg") no-repeat center center;
+}
+.ymy_banner{
+    color: #fff;
+    height: 600px;
+}
+.ymy_banner .ym_width{
+    margin: 40px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.nav_title{
+    font-size: 14px;
+    background: url("../image/ymg_icon24.png") no-repeat;
+}
+.nav_title ul{
+    text-align: right;
+    margin-left: 30px;
+}
+.nav_title li{
+    float: left;
+}
+.nav_title li>a{
+    color: #fff;
+}
+.ymy_banner h1{
+    font-size: 52px;
+    margin-top: 40px;
+}
+.ymy_banner h5{
+    font-size: 24px;
+}
+.ymy_banner_text{
+    margin-top: 50px;
+}
+.ymy_banner_text span{
+    font-size: 20px;
+    display:inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    border:1px solid #fff;
+    position: relative;
+}
+.ymy_banner_text i.triangle{
+    display:inline-block;
+    border:15px solid transparent;
+    border-top-color: #fff;
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    margin-left: -11px;
+}
+.ymy_banner_text p{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 0 75px;
+}
+
+/* 应用软件展示结束 */
+.ymy_exhibition{
+    width: 1094px;
+    margin: 0 auto;
+    padding: 80px 0 100px 0;
+}
+.exhibition_title{
+    text-align: center;
+}
+.exhibition_title h2{
+    font-size: 40px;
+}
+.exhibition_title h5{
+    font-size: 16px;
+    color: #666;
+}
+.exhibition_details{
+    margin-top: 90px;
+}
+.details_bg{
+    width: 432px;
+    height: 394px;
+    background: url("../image/video_bg02.png") no-repeat;
+}
+.details_bg>img{
+    width: 396px;
+    height: 254px;
+    margin: 20px auto 0;
+    display: inherit;
+}
+.w-602{
+    width: 602px;
+}
+.details_right li{
+    float: left;
+    width: 130px;
+    height: 42px;
+    line-height: 42px;
+    border:3px solid #ccc;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.exhibition_details .font-36{
+    font-size: 36px;
+    margin: 20px 0 30px 0;
+}
+
+.exhibition_details .btn a{
+    background-color: #fff;
+    display: inline-block;
+
+    padding: 10px 30px;
+    border: 1px solid #2fb8ea;
+    border-radius: 3px;
+    color: #2fb8ea;
+}
+.exhibition_details p{
+    font-size: 16px;
+}
+.details_main_text .font-24{
+    font-size: 24px;
+}
+.exhibition_details .btn a:hover{
+    background-color: #2fb8ea;
+    color: #fff;
+}
+.content_text{
+    margin: 15px 0 20px 0;
+}
+/* 应用方案展示 */
+.programme{
+    padding:60px 0;
+    background-color: #f3f3f3;
+}
+.programme_title{
+    text-align: center;
+}
+.programme_title h2{
+    font-size: 40px;
+}
+.programme_title h5{
+    font-size: 16px;
+    color: #666;
+}
+.programme .ym_width{
+    margin: 0 auto;
+}
+.programme li{
+    width: 128px;
+    float: left;
+    margin: 40px 136px 0 136px;
+}
+.programme li>a{
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    text-align: center;
+}
+.programme li>a:hover{
+    background-color: #0099ff;
+}
+.programme li>a>img{
+    /*vertical-align:middle;*/
+    margin-top: 25px;
+    transition: .5s;
+}
+.programme li>a>img:hover{
+    transform: rotate(360deg);
+    background-color: #0099ff;
+}
+.programme li>p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+

@@ -1,0 +1,255 @@
+/* 头部样式 */
+.header{
+	width:100%;
+	background-color:#f7f7f7;
+	padding-bottom:15px;
+}
+.signout{
+	cursor: pointer;
+}
+.header_top{
+	margin:0 auto;
+}
+.main{
+	padding-top:10px;
+	color: #666;
+}
+.logo{
+	float:left;
+}
+.main_right{
+	float:right;
+}
+.top_nav{
+	margin-bottom:20px;
+}
+.top_nav>ul>li{
+	float:left;
+	margin-right:5px;
+    position: relative;
+}
+.top_nav ul>li:nth-child(1),
+.top_nav ul>li:nth-child(2){
+	font-size: 14px;
+}
+.display_block{
+	display: block;
+}
+.display_none{
+	display:none;
+}
+.top_nav>ul>li.top_nav_li>ul{
+	background-color: #fff;
+	border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.top_nav .top_nav_li{
+	width: 93px;
+	text-align: center;
+}
+.nav ym_width li img{
+	transition: transform 0.4s ease-out;
+}
+.nav ym_width li:hover{
+	transform: rotate( 180deg);
+}
+/* .top_nav .top_nav_li img,
+.nav>ul>li>.triangle{
+	transition: transform 0.4s ease-out;
+}
+.nav>ul>li>.triangle{
+	transform-origin:center center;
+}
+.top_nav .top_nav_li:hover img,
+.nav>ul>li:hover .triangle{
+	transform: rotate( 180deg);
+} */
+.top_nav .tel{
+	font-weight:bolder;
+}
+.search{
+	width:514px;
+	height:44px;
+	border:2px solid #2fb8ea;
+	font-size:0;
+	float:left;
+	margin-right: 40px;
+}
+.search .input_01{
+	width:410px;
+	height:40px;
+	border:none;
+	background-color:#fff;
+	padding-left:10px;
+	outline:none;
+}
+.search .input_02{
+	width:93px;
+	height:44px;
+	color:#fff;
+	border:none;
+}
+.header_search .shopping img{
+	vertical-align: middle
+}
+
+/* 导航 */
+.nav{
+	margin:0 auto;
+	font-size:16px;
+	height:48px;
+	line-height:42px;
+	text-align:right;
+}
+/* .nav>ul>li:hover{
+	border-top:4px solid #2fb8ea;
+	color:#2fb8ea;
+} */
+.nav>ul>li{
+	float:left;
+	margin-right:75px;
+	position: relative;
+	border-top:4px solid transparent;
+}
+/* .nav>ul>li>a:hover{
+	color:#2fb8ea;
+} */
+.active{
+	/* border-top:4px solid #2fb8ea; */
+	color:#2fb8ea;
+}
+.nav ul li img{
+	transition: .3s;
+}
+.nav ul li:hover img{
+	transform: rotate(360deg)
+}
+.nav>ul>li>a{
+	font-weight:bolder;
+}
+.nav>ul>li:hover>a{
+	color:#2fb8ea;
+}
+.nav_list{
+	display:none;
+	border: 1px solid #f0f0f0;
+	border-top:none;
+    /* display: none; */
+    text-align: left;
+    background-color: #fff;
+    width: 125px;
+    position: absolute;
+    left: -25px;
+    z-index: 2;
+    padding: 0 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px 1px #ddd;
+}
+   
+   
+/* .nav .triangle{
+	display:inline-block;
+	border:6px solid transparent;
+	border-top-color:#2fb8ea;
+	vertical-align:middle;
+	margin-left:5px;
+	margin-top:5px;
+	transform:translateY(0); 
+}*/
+.shopping{
+	width:132px;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	background-color: #fff;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:20px;
+}
+.nav .coustomer{
+	font-weight:bold;
+}
+/* 登录样式 */
+.bg_lg{
+	width: 100%;
+	/* min-height: 1200px; */
+	background: rgba(0, 0, 0, 0.3);
+	z-index: 999;
+	display: none;
+	/* overflow: hidden; */
+	position: absolute
+
+}
+.login {
+	width: 800px;
+	height: 425px;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 100px auto;
+	padding: 15px;
+	border-radius: 5px;
+	position: fixed;
+	top:100px;
+	left:0;
+	left: 50%;
+	margin-left: -400px;
+
+}
+.login_bg{
+	background:#fff url(../image/login.jpg) no-repeat;
+	height: 100%;
+	padding-right: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.login_bg .close{
+	position: absolute;
+	top:-28px;
+	right: -29px;
+	display: inline-block;
+	color: #fff;
+	font-size: 28px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #3a3f43;
+	border-radius: 50%;
+	border:3px solid #fff;
+	cursor: pointer;
+}
+.login_main{
+	float: right;
+	margin-top: 20px;
+}
+.login_main>div>input{
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.login_main>div>input,
+.login_main button{
+	width:300px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+.login_main p{
+	font-size: 16px;
+	margin:15px 0;
+}
+.login_main p em{
+	float: right;
+}
+.login_main .un_upwd span{
+	float: right;
+}
+.login_main button{
+	color: #fff;
+	cursor: pointer;
+}
+

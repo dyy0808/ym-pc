@@ -1,0 +1,55 @@
+/* 注册页面开始 */
+body{
+	background:url('../image/reg_login_img/register_bg.jpg') no-repeat;
+	background-position:top center;
+	background-size:100% auto;
+	
+}
+.register_main{
+  width:100%;
+  position:fixed;
+  top:0;
+}
+.reg{
+    width:650px;
+	margin:100px auto;
+}
+.reg input{
+	width:375px;
+	box-shadow: inset 1px 1px 4px #d9d9d9;
+    -webkit-box-shadow: inset 1px 1px 4px #d9d9d9;
+    -moz-box-shadow: inset 1px 1px 4px #d9d9d9;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    color: #333;
+    line-height: 40px;
+	padding:0 10px;
+	margin-top:45px;
+	box-sizing:border-box;
+}
+.reg button{
+	width: 376px;
+	height: 39px;
+	margin-top:20px;
+	display: inline-block;
+	background-color: #ea2d94;
+	border:none;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	cursor: pointer;
+}
+.reg label{
+	display:inline-block;
+	width:90px;
+	text-align:right;
+}
+.reg p{
+	margin:10px 0 0 100px;
+	color:red;
+}
+/* 注册页面结束 */
+
+
+/* 登录页面开始 */
+/* 登录页面结束 */

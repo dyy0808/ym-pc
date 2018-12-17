@@ -1,0 +1,254 @@
+/* 购物流程logo部分通用样式开始 */
+/* order_confirm / cart */
+.top_bg{
+    width: 100%;
+    height: 106px;
+    background-color: #f7f7f7;
+}
+.top_bg .ym_width{
+    margin: 0 auto;
+}
+a.cart_logo{
+    float: left;
+    display: inline-block;
+    margin-top: 19px;
+}
+.top_bg .info{
+    float: right;
+    width: 503px;
+    height: 40px;
+    background:url("../image/div_bg01.png")no-repeat;
+    margin-top: 33px;
+    color: #fff;
+    line-height: 40px;
+}
+.top_bg .info span:nth-child(1){
+    margin-left: 33px;
+}
+.top_bg .info span:nth-child(2){
+    margin-left: 85px;
+}
+.top_bg .info span:nth-child(3){
+    margin-left: 65px;
+}
+/* 购物流程logo部分通用样式结束 */
+
+/* 主内容 */
+.cart_content{
+    width:1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cart_title{
+  line-height: 70px;
+}
+.cart_title img{
+    vertical-align: middle;
+}
+.cart_title h2{
+    display: inline-block;
+}
+.cart_box table{
+    width: 1200px;
+    /*border:1px solid #ddd;*/
+}
+.cart_box table thead tr{
+    font-weight: normal;
+    color: #fff;
+    height: 40px;
+    background-color: #7e8eab;;
+}
+.cart_box table tr td{
+    padding:15px 30px;
+    border:1px solid #ddd;
+}
+.cart_box table tr td>a>img{
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+}
+.number input{
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    outline: none;
+}
+[class^="cart_ico"]{
+    display: block;
+    width:17px;
+    height:17px;
+    border:1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+.number .triangle{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cart_icon_01{
+    margin-bottom: 5px;
+}
+.a_link{
+    color: #25BBEA;
+}
+.price{
+    color:#ea2d94;
+}
+td span.details{
+    display: inline-block;
+    width: 185px;
+}
+.del_cart{
+    border:1px solid #ddd;
+    padding: 0 30px 0 15px;
+    margin: 25px 0 20px 0;
+}
+.del_cart a{
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+}
+.cart_details ul{
+    float: right;
+}
+.cart_details ul>li{
+    width: 340px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+}
+.cart_details ul>li:last-child{
+    border:none;
+}
+.cart_details ul>li>span{
+    display: inline-block;
+    width: 140px;
+}
+.end_cart{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border:1px solid #ddd;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+}
+.end{
+    text-align: right;
+}
+.end .continue{
+    background-color: #fff;
+}
+.end .settlement{
+    background-color:#ea2d94;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.end .continue:hover{
+    color: #25BBEA;
+    border-color: #25BBEA;
+}
+.end .settlement:hover{
+    background-color:#25BBEA;
+}
+/* 热门商品及最近浏览商品 */
+.recommend{
+    width: 1200px;
+    margin: 30px auto 0;
+    border:1px solid #ddd;
+}
+.recommend_nav{
+    background-color: #f4f4f4;
+    border-bottom:1px solid #ddd;
+}
+.recommend_nav li{
+    float: left;
+    width: 174px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-right:1px solid #ddd;
+    cursor: pointer;
+    margin:0 !important;
+}
+.recommend_nav li.active{
+    background-color: #fff;
+    border-bottom:1px solid #fff;
+}
+/*同类热门销售商品*/
+.product_style{
+    width:1200px;
+    margin:30px auto 0;
+    border:1px solid #ddd;
+}
+/* 商品公共样式 */
+.hot_product{
+    padding-bottom: 40px;
+}
+
+.product ul li {
+    width: 230px;
+    float: left;
+    margin: 25px 34px 0 34px;
+}
+
+.product ul li img{
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+}
+.product li>p{
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.product .details_text{
+    height: 18px;
+    overflow: hidden;
+}
+.product p span{
+    font-size: 22px;
+    color: #ea2d94;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.product i.bg_pink{
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    width: 40px;
+    height: 18px;
+    color: #fff;
+    font-size: 12px;
+    border-radius:2px;
+    margin-left: 30px;
+}
+.product .cart_btn a{
+    float: left;
+}
+
+.product .cart_btn_collection{
+    width: 36px;
+    background:url("../image/ymg_icon25.png") no-repeat center center;
+
+}
+[class^="cart_btn_"]{
+    display: inline-block;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    border:1px solid #ddd;
+}
+[class^="cart_btn_"]:hover{
+    background: #ea2d94 url("../image/ymg_icon25_2.png") no-repeat center center;
+    color: #fff;
+}
+.cart_btn_width{
+    width: 85px;
+    border-right:none;
+}
+/* 最近浏览过的商品 */
+.record{
+    padding-bottom: 40px;
+}

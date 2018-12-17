@@ -1,0 +1,203 @@
+/* 头部 */
+.confirm{
+    color: #fff;
+    width: 100%;
+    background-color:#2b313d;
+    height: 36px;
+}
+.confirm .top_nav{
+    margin: 0 auto;
+    line-height: 36px;
+}
+.confirm .top_nav a{
+    color: #fff;
+}
+.confirm .top_nav img{
+    vertical-align: middle;
+}
+.confirm .top_nav_right li>a{
+    background:url("../image/ymg_icon05.png") no-repeat right 4px;
+    padding: 0 20px 0 0;
+    font-size: 12px;
+}
+/*.confirm .top_nav_right li>a span{*/
+    /*font-size: 14px;*/
+/*}*/
+.confirm .top_nav_right li{
+    float: left;
+}
+.confirm .top_nav_right li i{
+    margin-left:12px;
+}
+.confirm_top .info{
+    background:url("../image/div_bg02.png")no-repeat;
+}
+/* 主内容开始 */
+.confirm_main{
+    width: 1200px;
+    margin:0 auto;
+}
+.confirm_main_title{
+    line-height: 70px;
+    border-bottom:1px solid #ddd;
+}
+.confirm_main_title img{
+    vertical-align: middle;
+}
+.confirm_main_title h2{
+    display: inline;
+}
+.info_top{
+    line-height: 60px;
+}
+.info_top i{
+    display: inline-block;
+    width:4px;
+    height: 20px;
+    /*vertical-align: middle;*/
+}
+.info_top h4{
+    display: inline;
+    font-size: 20px;
+    margin:0 6px;
+}
+/*收货人信息*/
+.form_info{
+    background:#f4f4f4;
+    padding: 25px;
+    border:1px solid #ddd;
+}
+
+.form_info input{
+    width: 364px;
+    height: 34px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+.form_info li{
+    margin-top: 15px;
+}
+.form_info label{
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+}
+.form_btn a{
+    display: inline-block;
+    padding: 6px 15px;
+}
+.form_btn a:nth-child(1){
+    color: #fff;
+    border:1px solid transparent;
+    margin-right: 10px;
+
+}
+.form_btn a:nth-child(2){
+    color: #333;
+    border:1px solid #bbb;
+}
+
+/*支付及配送方式*/
+.pay_way{
+
+}
+.pay_way ul{
+    border:1px solid #ddd;
+}
+.pay_way li{
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    padding-left:10px;
+}
+.pay_way li span{
+    color: #999;
+}
+/* 发票信息 */
+.invoice_info ul{
+    border:1px solid #ddd;
+}
+.invoice_info li{
+    line-height: 50px;
+    padding-left:10px;
+    /*border-bottom: 1px solid #ddd;*/
+}
+.invoice_info li p{
+    display: inline-block;
+    margin-right: 20px;
+}
+.invoice_info li p input{
+    margin-right: 10px;
+}
+.invoice_info li p span{
+    border:1px solid #e8138d;
+    padding: 5px;
+}
+/* 商品清单 */
+.good_list table{
+    border:1px solid #ddd;
+    width: 1200px;
+}
+.good_list table thead{
+    background-color: #f4f4f4;
+    line-height: 50px;
+}
+.good_list table tbody td{
+    border:1px solid #ddd;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/**/
+.confirm_bottom{
+    margin-top: 30px;
+    border:1px solid #ddd;
+    padding: 10px 20px 30px 10px;
+}
+.confirm_bottom select{
+    height: 40px;
+}
+.confirm_bottom_left p{
+    margin-top:10px;
+}
+.confirm_bottom_left .inp_pick{
+    width:40px;
+}
+.confirm_bottom_btn a{
+    width: 140px;
+    height: 40px;
+    display: inline-block;
+}
+.confirm_bottom_right li{
+    width: 340px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+}
+.confirm_bottom_right li strong{
+    display: inline-block;
+    color: #e8138d;
+    width: 140px;
+}
+.confirm_bottom_right li .last-strong{
+    font-size: 20px;
+}
+.confirm_bottom_right li:last-child{
+    border-bottom: 0;
+}
+.confirm_bottom_btn{
+    text-align: right;
+    margin-top: 20px;
+}
+.confirm_bottom_btn a{
+    text-align: center;
+    line-height: 50px;
+}
+.confirm_bottom_btn .jx{
+    border: 1px solid #ddd;
+    margin-right: 5px;
+}
+.confirm_bottom_btn .bg_pink{
+    border:1px solid transparent;
+    color: #fff;
+}

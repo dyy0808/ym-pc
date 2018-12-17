@@ -1,0 +1,83 @@
+/* 公共样式 */
+body,h1,h2,h3,h4,h5,h6,ul,dl,dt,dd,p{
+	margin:0;
+	padding:0;
+	border:0;
+}
+i,em{
+	font-style: normal;
+}
+body{
+	font-size: 14px;
+	font-family:"黑体";
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+.clearfix:after{
+	content:'';
+	clear:both;
+	display:block;
+	overflow:hidden;
+	height:0;
+}
+.clearfix{
+	zoom:1;
+}
+.blue{
+	color:#2f9dea;
+}
+.bg_blue{
+	background-color:#2fb8ea;
+}
+.ym_width{
+	width:1200px;
+}
+.f_lt{
+	float:left;
+}
+.f_rt{
+	float:right;
+}
+.d_display{
+	display: none;
+}
+h3{
+	font-size:36px;
+	text-align:center;
+}
+.font-small{
+	font-size: 12px;
+	color: #666;
+}
+.bg_pink{
+	background-color: #eb2e94;
+}
+.color_pink{
+	color:#eb2e94;
+}
+.bg_Orange{
+	background-color: #ffa300;
+}
+.bg_green{
+	background-color: #74bc28;
+}
+.bg_darkGreen{
+	background-color: #3cd6b0;
+}
+.bg_gray{
+	background-color: #898989;
+}
+.display{
+	display: none;
+}
+/* 价钱效果 */
+.money{
+	font-size: 22px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #ea2d94;
+}

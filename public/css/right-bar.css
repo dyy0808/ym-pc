@@ -1,0 +1,42 @@
+.right-bar{
+    width: 40px;
+    height: 100%;
+    background-color: #6a758e;
+    position: fixed;
+    right: 0;
+    z-index: 9999;
+    color:#fff;
+    padding-top:120px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s; 
+}
+.right-bar:hover{
+    width: 46px;
+    
+}
+.right-bar li{
+    margin-top:1px;
+}
+.right-bar a{
+    text-align: center;
+    padding: 8px 0;
+    display: block; 
+    color:#fff;
+}
+.bar-bg{
+    background-color: #48526a;
+}
+.right-bar li p{
+    padding: 0 5px; 
+    font-size: 12px; 
+    line-height: 18px;
+    font-weight: normal;
+    color: #FFF;
+    text-align: center; 
+    display: block;
+    height: 0; 
+    overflow: hidden; 
+     height: 36px;
+     display: none;
+}
